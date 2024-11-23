@@ -14,7 +14,7 @@ app.get("/", async(req, res) => {
     } catch (error) { // handles any error encounter
         console.error('Error reading file:', error); // return a string 'Error reading file:' and the entire error stack to the console log
         res.status(500).send("Internal Server Error"); // send back the HTTP status code 500 and 
-                                                        // a message 'Internal Srever Error' to tell that there is wrong on the server side
+                                                        // a message 'Internal Server Error' to tell that there is wrong on the server side
     }
 });
 
