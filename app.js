@@ -21,5 +21,6 @@ app.get("/", async(req, res) => {
 
 //Listening on port 3000
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);// display a message in the console log to tell that letting you know that the server is running 
+                                                                 //and can be accessed thru http://localhost:3000 in the browser
 });
